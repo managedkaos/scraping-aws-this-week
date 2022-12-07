@@ -1,6 +1,6 @@
 name: Pylint
 
-on: [push, workspace_dispatch]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
