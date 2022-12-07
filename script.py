@@ -1,7 +1,7 @@
 import youtube_dl
 import bios
 
-options = {
+ydl_opts = {
     'skip_download': True,
     'restrictfilenames': True,
     'noplaylist': True,
@@ -17,9 +17,12 @@ for video_url in urls:
 
     video_id = video_url.split('=')[1]
 
-    with youtube_dl.YoutubeDL(options) as ydl:
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.download([video_url])
 
     video = bios.read(f"{video_id}.info.json")
 
-    print(video)
+    print(f"## {video['upload_date']} - {video['title']}")
+
+    for chapter in video['chapters']:
+        print(f"- {chapter['title']}")
