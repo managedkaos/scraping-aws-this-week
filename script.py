@@ -2,6 +2,7 @@ import youtube_dl
 import bios
 
 ydl_opts = {
+    'quiet': True,
     'skip_download': True,
     'restrictfilenames': True,
     'noplaylist': True,
