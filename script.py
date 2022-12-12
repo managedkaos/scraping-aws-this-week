@@ -25,5 +25,8 @@ for video_url in urls:
 
     print(f"## {video['upload_date']} - {video['title']}")
 
-    for chapter in video['chapters']:
-        print(f"- {chapter['title']}")
+    if video.has_key('chapters'):
+        for chapter in video['chapters']:
+            print(f"- {chapter['title']}")
+    else:
+        print('No chapters found for video.')
