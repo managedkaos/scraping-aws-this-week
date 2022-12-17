@@ -17,7 +17,9 @@ local:
 meta.json:
 	python script.py
 
+clean:
+	rm -vf meta.json
 freeze:
 	flask freeze
 
-.PHONY: all env requirements lint local freeze
+.PHONY: all env requirements lint local freeze clean
