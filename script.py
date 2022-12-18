@@ -5,14 +5,11 @@ playlist = 'https://www.youtube.com/playlist?list=PLI1_CQcV71RmeydXo-5K7DAxLsUX6
 
 ydl_opts = {}
 
-with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-    meta = ydl.extract_info(playlist, download=False)
-
-# <th>Date Uploaded</th>
-# <th>Thumbnail</th>
-# <th>Title</th>
-# <th>Chapters</th>
-# <th>Video</th>
+if __debug__:
+    meta = bios.read('./meta.json')
+else:
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        meta = ydl.extract_info(playlist, download=False)
 
 for entry in meta['entries']:
     print(entry['upload_date'])

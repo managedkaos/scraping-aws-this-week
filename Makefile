@@ -1,4 +1,4 @@
-all: env requirements lint meta.json
+all: env requirements lint script
 
 env:
 	python -m venv ./env
@@ -14,12 +14,13 @@ lint:
 local:
 	python tags.py --local
 
-meta.json:
-	python script.py
+script:
+	python -O script.py
 
 clean:
 	rm -vf meta.json
+
 freeze:
 	flask freeze
 
-.PHONY: all env requirements lint local freeze clean
+.PHONY: all env requirements lint local freeze clean script
