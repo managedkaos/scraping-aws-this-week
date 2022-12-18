@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-Describe the gitlab runner images built by the ETech Flex SRE team.
+Generate a summary page for a youtube playlist
 '''
 import os
 
@@ -32,11 +32,12 @@ def serve():
 @app.route('/')
 def root():
     '''Generate the HTML'''
-    tags = bios.read('./data/tags.json')
+    meta = bios.read('./meta.json')
+
     return render_template('index.j2',
-        tags=tags,
-        date=date.today().strftime('%A, %B  %d, %Y at %X %Z'),
-        title=os.getenv('WEB_PAGE_TITLE'))
+        meta=meta,
+        playlist_title=meta['title'],
+        date=date.today().strftime('%A, %B  %d, %Y at %X %Z'))
 
 
 if __name__ == '__main__':

@@ -1,4 +1,4 @@
-all: env requirements lint script
+all: env requirements lint script freeze
 
 env:
 	python -m venv ./env
@@ -14,9 +14,6 @@ lint: activate
 	flake8 --exit-zero --ignore=E128,E501  *.py
 	pylint --exit-zero *.py
 
-local: activate
-	python tags.py --local
-
 script: activate
 	python -O script.py
 
@@ -26,4 +23,4 @@ clean:
 freeze: activate
 	flask freeze
 
-.PHONY: all env activate requirements lint local freeze clean script
+.PHONY: all env activate requirements lint freeze clean script

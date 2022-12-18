@@ -1,0 +1,117 @@
+{
+  "_type": "playlist",
+  "entries": [
+    {
+      "id": "JGnat4FCMsA",
+      "title": "AWS This Week: Inspector supports AWS Lambda functions, AWS KMS XKS, Amazon Lex adds languages",
+      "thumbnails": [
+        {
+          "height": 94,
+          "url": "https://i.ytimg.com/vi/JGnat4FCMsA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAuOje8wa9vrke9lp6zi9S8l6r32g",
+          "width": 168,
+          "resolution": "168x94",
+          "id": "0"
+        },
+        {
+          "height": 110,
+          "url": "https://i.ytimg.com/vi/JGnat4FCMsA/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLALY8893OHXfshaMedJbpY8J3Pobw",
+          "width": 196,
+          "resolution": "196x110",
+          "id": "1"
+        },
+        {
+          "height": 138,
+          "url": "https://i.ytimg.com/vi/JGnat4FCMsA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrFRcrXbhVHhI-bqMGtvlz3a_UUg",
+          "width": 246,
+          "resolution": "246x138",
+          "id": "2"
+        },
+        {
+          "height": 188,
+          "url": "https://i.ytimg.com/vi/JGnat4FCMsA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPJUab8LwDLgpu7TeqAks5iDs0gA",
+          "width": 336,
+          "resolution": "336x188",
+          "id": "3"
+        },
+        {
+          "height": 1080,
+          "url": "https://i.ytimg.com/vi/JGnat4FCMsA/maxresdefault.jpg",
+          "width": 1920,
+          "resolution": "1920x1080",
+          "id": "4"
+        }
+      ],
+      "description": "Michael is back with your AWS news! This week in AWS announcements, Amazon Inspector now supports AWS Lambda functions, AWS KMS adds support for external key stores, and AWS Verified Access for cloud-based applications now in preview. Also, Amazon Lex adds support for 6 more languages.\n\nIntroduction to AWS updates (0:00)\nAmazon Inspector support for AWS Lambda functions (0:37)\nAWS KMS launches External Key Store (1:26)\nAnnouncing the preview of AWS Verified Access (2:29)\nAmazon Lex launches support for more languages (3:31)\n\nStart your cloud journey and sign up now\nhttps://plrsig.ht/youtube-cloudhappy\n\nSubscribe to A Cloud Guru for AWS latest updates and service announcements, every week\nhttps://www.youtube.com/channel/UCp8lLM2JP_1pv6E0NQ38pqw/?sub_confirmation=1\n\nLike us on Facebook!\nhttps://www.facebook.com/acloudguru \n\nFollow us on Twitter!\nhttps://twitter.com/acloudguru\n\nJoin the conversation on Discord!\nhttps://discord.com/invite/pluralsight \n\n—\n- AWS announces Amazon Inspector support for AWS Lambda functions: https://bit.ly/3iVCjed\n- What is Amazon Inspector: https://bit.ly/3uHTMtC\n- AWS KMS launches External Key Store: https://bit.ly/3v09kcl\n- Announcing AWS KMS External Key Store (XKS): https://bit.ly/3uJ64la\n- AWS Verified Access Preview — VPN-less Secure Network Access to Corporate Applications: https://bit.ly/3uFiMRV\n- Announcing the preview of AWS Verified Access: https://bit.ly/3iRXb6f\n- AWS Verified Access Documentation: https://bit.ly/3BPahIj\n- Tutorial: Getting started with Verified Access: https://bit.ly/3PkbbSD\n- Amazon Lex launches support for Arabic, Cantonese, Norwegian, Swedish, Polish, and Finnish: https://bit.ly/3Br51dx\n- Languages and locales supported by Amazon Lex V2: https://bit.ly/3iUUEZ9\n- What is Amazon Lex: https://bit.ly/3YflNpJ\n \n#awsthisweek #aws #awsnews",
+      "upload_date": "20221211",
+      "channel_url": "https://www.youtube.com/channel/UCp8lLM2JP_1pv6E0NQ38pqw",
+      "duration": 267,
+      "view_count": 497,
+      "webpage_url": "https://www.youtube.com/watch?v=JGnat4FCMsA",
+      "categories": [],
+      "tags": [
+        "A Cloud Guru",
+        "ACG",
+        "Cloud Computing",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Microsoft",
+        "Amazon Web Services",
+        "Lars Klint",
+        "Ryan Kroonenburg",
+        "Faye Ellis",
+        "Google",
+        "Sam Kroonenburg",
+        "Azure This Week",
+        "GCP This Month",
+        "AWS This Week",
+        "aws news",
+        "aws updates",
+        "aws announcements",
+        "pluralsight",
+        "amazon inspector",
+        "aws lambda",
+        "aws kms",
+        "aws verified access",
+        "amazon lex"
+      ],
+      "chapters": [
+        {
+          "start_time": 0.0,
+          "end_time": 37.0,
+          "title": "Introduction to AWS updates"
+        },
+        {
+          "start_time": 37.0,
+          "end_time": 86.0,
+          "title": "Amazon Inspector support for AWS Lambda functions"
+        },
+        {
+          "start_time": 86.0,
+          "end_time": 149.0,
+          "title": "AWS KMS launches External Key Store"
+        },
+        {
+          "start_time": 149.0,
+          "end_time": 211.0,
+          "title": "Announcing the preview of AWS Verified Access"
+        },
+        {
+          "start_time": 211.0,
+          "end_time": 267,
+          "title": "Amazon Lex launches support for more languages"
+        }
+      ],
+      "webpage_url_basename": "JGnat4FCMsA",
+      "playlist_title": "AWS This Week - A Cloud Guru",
+      "playlist_index": 1,
+      "thumbnail": "https://i.ytimg.com/vi/JGnat4FCMsA/maxresdefault.jpg",
+      "display_id": "JGnat4FCMsA"
+    }
+  ],
+  "id": "PLI1_CQcV71RmeydXo-5K7DAxLsUX6SVhL",
+  "title": "AWS This Week - A Cloud Guru",
+  "uploader": "A Cloud Guru",
+  "uploader_url": "https://www.youtube.com/@acloudguru",
+  "webpage_url": "https://www.youtube.com/playlist?list=PLI1_CQcV71RmeydXo-5K7DAxLsUX6SVhL",
+}
