@@ -46,11 +46,16 @@ jobs:
       run: |
         python -O script.py
 
+
+    - name: Build the site
+      run: |
+        make freeze
+
     - name: Archive the meta data
       uses: actions/upload-artifact@v3
       with:
-        name: meta.json
-        path: meta.json
+        name: site
+        path: ./public
 
   deploy:
     needs: build
@@ -59,24 +64,13 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v3
-        with:
-          python-version: "3.10"
-
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
       - name: Download meta data
         uses: actions/download-artifact@v3
         with:
-          name: meta.json
-
-      - name: Create the static site
-        run: make freeze
+          name: site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
