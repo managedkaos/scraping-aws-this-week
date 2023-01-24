@@ -1,3 +1,7 @@
+[![Deploy static content to Pages](https://github.com/managedkaos/scraping-aws-this-week/actions/workflows/static.yml/badge.svg)](https://github.com/managedkaos/scraping-aws-this-week/actions/workflows/static.yml)
+
+[AWS This Week Summary Page](https://awsthisweek.xyz/)
+
 # scraping-aws-this-week
 Scraping AWS this week with [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
