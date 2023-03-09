@@ -2,8 +2,6 @@
 '''
 Generate a summary page for a youtube playlist
 '''
-import os
-
 from datetime import date
 from flask import Flask, render_template
 from flask_frozen import Freezer

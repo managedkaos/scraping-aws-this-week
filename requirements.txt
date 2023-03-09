@@ -1,7 +1,6 @@
 bios==0.1.2
 oyaml==1.0
 PyYAML==6.0
-youtube-dl==2021.12.17
 flake8==6.0.0
 Flask==2.2.2
 Frozen-Flask==0.18
